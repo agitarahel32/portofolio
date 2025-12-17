@@ -5,7 +5,6 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
-import ContactMenu from "@/components/ContactMenu";
 
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
     <main className="font-sans text-gray-800">
       <Navbar />
       <Hero />
-      <ContactMenu />
       <About />
       <Experience />
       <Skills />
